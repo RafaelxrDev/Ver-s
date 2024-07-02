@@ -15,6 +15,7 @@
   }
   html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
   body {
     font-family: 'Open Sans', sans-serif;
@@ -37,7 +38,7 @@
     font-size: 5.5rem;
   }
   h3 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   h4 {
     font-size: 4.5rem;
@@ -161,4 +162,16 @@
 
     max-width: 100%;
     height: auto;
+  }
+
+  .servicos-content{
+    max-width: 130rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  .servicos-content p {
+    font-size: 1.9rem;
   }
