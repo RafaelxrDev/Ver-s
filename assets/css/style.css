@@ -175,3 +175,17 @@
   .servicos-content p {
     font-size: 1.9rem;
   }
+  .contatos-content{
+    top: 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    min-height: 100vh;
+  }
+  .contatos-img img {
+    max-width: 100%;
+    min-height: auto;
+  }
+  .contatos-img{
+    position: absolute;
+  }
