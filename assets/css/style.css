@@ -264,15 +264,16 @@ body .full-area {
 }
 
 .numeros-alling{
-  row-gap: var(--gap);
-
-  
+  display: flex;
+gap: 0.1rem;
+flex-flow: column wrap;
+  align-items: center;
 }
 
 .numeros-content {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: var(--gap);
   min-height: 10vh;
   justify-content: center;
