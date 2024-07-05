@@ -69,6 +69,7 @@ a {
   z-index: 3;
 }
 
+
 .white-bg {
   background: var(--white-color);
   color: var(--primary-color);
@@ -283,11 +284,11 @@ flex-flow: column wrap;
 .numeros-content div {
   display: flex;
   grid-template-columns: 1fr;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; 
+  align-items: center; 
 }
 
-.contatos-content h5{
+.contatos-content {
 display: flex;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -299,16 +300,16 @@ display: flex;
 .numeros-content {
   display: grid;
   align-items: center;
-  grid-template-columns: auto 1fr 0.1; /* Define duas colunas: uma para o nome e outra para o número de telefone */
-  gap: 1rem; /* Espaçamento entre as colunas */
-  align-items: center; /* Alinha verticalmente ao centro */
+  grid-template-columns: auto 1fr 0.1;
+  gap: 1rem;
+  align-items: center;
 }
 
 .numeros-content a {
-  display: flex; /* Permite o alinhamento flexível dos elementos internos */
-  align-items: center; /* Alinha verticalmente ao centro */
-  text-decoration: none; /* Remove sublinhado dos links */
-  color: inherit; /* Herda a cor do texto do pai */
+  display: flex; 
+  align-items: center; 
+  text-decoration: none;
+  color: inherit;
   margin-left: -3rem;
   transition: all 300ms ease-in-out;
   left: 5rem;
@@ -323,9 +324,9 @@ display: flex;
 
 
 .numeros-content img {
-  width: 24px; /* Define o tamanho do ícone do WhatsApp */
+  width: 24px; 
   min-height: 24px;
-  margin-left: 5px; /* Espaçamento à esquerda do ícone */
+  margin-left: 5px; 
 }
 
 .n2, .n1, .n3, .n4{
@@ -354,5 +355,41 @@ display: flex;
   .contatos-img {
     display: none; 
   }
+  .mapa{
+    max-width: 100%;
+    min-height: auto;
+    display: none;
+  }
+}
+
+.footer {
+  text-align: center;
+}
+footer a {
+  color: dodgerblue;
+font-style: italic;
+font-size: 2.5rem;
+transition: all 300ms ease-in-out;
+}
+footer a:hover {
+background: var(--light-gray-color);
+color: var(--primary-color);
+padding: 1rem;
+margin-bottom: 1rem;
+}
+
+.mapa{
+  position: relative;
+  display: flex;
+  top: 2rem;
+  justify-content: center ;
+  align-items: center center;
+}
+.localizacao{
+  display: flex;
+  top: 5rem;
+  top: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
