@@ -13,13 +13,15 @@
     rel="stylesheet">
 </head>
 
-<body class="main-bg">
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button" >
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
   <aside class="menu white-bg">
     <nav class="main-content menu-content">
-      <h3><a href="#">Logo</a></h3>
-      <ul>
+      <h3><a href="logo">Logo</a></h3>
+      <ul onclick="getElementById('close-menu').checked = false;">
         <li>
-          <a href="#sobre">Sobre</a>
+          <a href="#intro">Sobre</a>
         </li>
         <li>
           <a href="#Missão">Missão</a>
@@ -34,8 +36,8 @@
       </ul>
     </nav>
   </aside>
-  <div id="sobre" class="menu-spacing"></div>
-  <section class="sobre main-bg section">
+  <div class="menu-spacing"></div>
+  <section id="intro" class="sobre main-bg section">
     <div class="sobre-content main-content">
       <div class="sobre-text-content">
         <h3> aumente produção da sua Obra com a A Ver's Perfuratriz e Locações</h3>
