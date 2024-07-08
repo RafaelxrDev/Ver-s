@@ -8,21 +8,19 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
 </head>
 
 <body>
-  <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button" >
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button" aria-pressed="false">
   <label class="close-menu-label" for="close-menu" title="close menu"></label>
   <aside class="menu white-bg">
     <nav class="main-content menu-content">
       <h3><a href="logo">Logo</a></h3>
-      <p class="numeros-content n6"><a
-        href="https://api.whatsapp.com/send?phone=553125220030&text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es">Orçamentos
-        (31) 2522-0030<img src="../Ver-s/assets/images/wpp-icon.svg" alt="icone do wpp"></a></p>
-      <ul onclick="getElementById('close-menu').checked = false;">
+      <p class="numeros-content n6"><a href="https://api.whatsapp.com/send?phone=553125220030&text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es">Orçamentos
+          (31) 2522-0030<img src="../Ver-s/assets/images/wpp-icon.svg" alt="icone do wpp"></a></p>
+      <ul onclick="document.getElementById('close-menu').checked = false;">
         <li>
           <a href="#intro">Sobre</a>
         </li>
@@ -35,7 +33,6 @@
         <li>
           <a href="#local">Localização</a>
         </li>
-
       </ul>
     </nav>
   </aside>
@@ -43,7 +40,7 @@
   <section id="intro" class="sobre main-bg section">
     <div class="sobre-content main-content">
       <div class="sobre-text-content">
-        <h3> aumente produção da sua Obra com a A Ver's Perfuratriz e Locações</h3>
+        <h3>aumente produção da sua Obra com a A Ver's Perfuratriz e Locações</h3>
         <p>Locação de equipamentos para área da construção civil, e prestação de serviços, garanta mais agilidade na sua
           obra!</p>
       </div>
@@ -53,7 +50,6 @@
   </section>
 
   <section id="Missão" class="white-bg section">
-
     <div class="main-content servicos-content">
       <h3>Perfuratriz: Transformando Construções com Eficiência e Precisão</h3>
       <p>Descubra a poderosa Perfuratriz, uma ferramenta essencial para profissionais da construção civil. Com sua
@@ -73,6 +69,7 @@
         hoje mesmo e descubra como a Ver's pode ser sua parceira ideal no sucesso do seu empreendimento.</p>
     </div>
   </section>
+
   <section id="contatos" class="main-bg section">
     <div class="main-content contatos-content">
       <div class="contatos-img">
@@ -80,7 +77,6 @@
       </div>
       <div class="form">
         <fieldset class="form-grid">
-
           <div class="form-group">
             <label for="Primeiro-nome">Nome</label>
             <input type="text" name="Primeiro-nome" id="Primeiro-nome" placeholder="Seu Nome">
@@ -96,9 +92,10 @@
           <div class="form-group full-area">
             <label for="mensagem">Mensagem</label>
             <textarea name="mensagem" id="mensagem" placeholder="Sua Mensagem"></textarea>
-            <div>
-              <button class="" type="submit">Enviar Mensagem</button>
-            </div>
+          </div>
+          <div>
+            <button type="submit">Enviar Mensagem</button>
+          </div>
         </fieldset>
         <h5 class="numeros-alling">Contatos</h5>
         <div class="numeros-alling">
@@ -106,38 +103,36 @@
               href="https://api.whatsapp.com/send?phone=553125220030&text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es">Orçamentos
               (31) 2522-0030<img src="../Ver-s/assets/images/wpp-icon.svg" alt="icone do wpp"></a></p>
           <p class="numeros-content n4"><a
-            href="https://api.whatsapp.com/send?phone=553125220030&text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es">@versperfuratrizelocacoes<img src="../Ver-s/assets/images/insta.svg" alt="icone do Instagram"></a></p>
-          <p class="numeros-content n4"><a
-              href="versperfuratrizelocacoes@gmail.com">versperfuratrizelocacoes@gmail.com<img
+              href="https://api.whatsapp.com/send?phone=553125220030&text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es">@versperfuratrizelocacoes<img
+                src="../Ver-s/assets/images/insta.svg" alt="icone do Instagram"></a></p>
+          <p class="numeros-content n4"><a href="versperfuratrizelocacoes@gmail.com">versperfuratrizelocacoes@gmail.com<img
                 src="../Ver-s/assets/images/email.svg" alt="icone do email"></a></p>
-
           <p class="numeros-content n1"><a
               href="https://api.whatsapp.com/send?phone=5531971981844&text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es">Edir
               (31) 97198-1844<img src="../Ver-s/assets/images/wpp-icon.svg" alt="icone do wpp"></a></p>
-
-
           <p class="numeros-content n3"><a
               href="https://api.whatsapp.com/send?phone=5531971482373&text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es">Vanderson
               (31) 97148-2373<img src="../Ver-s/assets/images/wpp-icon.svg" alt="icone do wpp"></a></p>
-
         </div>
       </div>
-
+    </div>
   </section>
+
   <section id="local" class="white-bg section">
     <div>
-    <h3  class="localizacao">Localização</h3>
-    <div id="Localização" class="mapa section"> 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.176873218929!2d-43.91811192398458!3d-19.874751936592055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69af0a56eb705%3A0xcdfa945130800d5e!2sR.%20Joaquim%20Baeta%20Neves%2C%20231b%20-%20Fern%C3%A3o%20Dias%2C%20Belo%20Horizonte%20-%20MG%2C%2031910-550!5e0!3m2!1spt-BR!2sbr!4v1720375613200!5m2!1spt-BR!2sbr" width="600" height="308" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-  <div class="endereço">
-  <p>R. Joaquim Baeta Neves, 231b - Fernão Dias, Belo Horizonte - MG, 31910-550</p>
-  </div>
+      <h3 class="localizacao">Localização</h3>
+      <div id="Localização" class="mapa section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.176873218929!2d-43.91811192398458!3d-19.874751936592055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69af0a56eb705%3A0xcdfa945130800d5e!2sR.%20Joaquim%20Baeta%20Neves%2C%20231b%20-%20Fern%C3%A3o%20Dias%2C%20Belo%20Horizonte%20-%20MG%2C%2031910-550!5e0!3m2!1spt-BR!2sbr!4v1720375613200!5m2!1spt-BR!2sbr"
+          width="600" height="308" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="endereço">
+        <p>R. Joaquim Baeta Neves, 231b - Fernão Dias, Belo Horizonte - MG, 31910-550</p>
+      </div>
+    </div>
   </section>
 
-
-
-<footer class="main-bg footer">Site desenvolvido por <a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/rafael-xavier-rezende-a62974207/">Rafael Xavier Rezende</a></footer>
+  <footer class="main-bg footer">Site desenvolvido por <a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/rafael-xavier-rezende-a62974207/">Rafael
+      Xavier Rezende</a></footer>
 </body>
 
 </html>
