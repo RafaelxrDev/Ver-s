@@ -483,6 +483,10 @@ display: block;
 .close-menu:checked~.close-menu-label::after{
   content: '×';
 }
+.endereço{
+  position: relative;
+  top: 10rem;
+}
 }
 
 .back {
