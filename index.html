@@ -76,6 +76,7 @@
         <img src="assets/images/negocios.svg" alt="Imagem de ilustração de call">
       </div>
       <div class="form">
+        <form action="https://api.staticforms.xyz/submit" method="post">
         <fieldset class="form-grid">
           <div class="form-group">
             <label for="Primeiro-nome">Nome</label>
@@ -91,12 +92,16 @@
           </div>
           <div class="form-group full-area">
             <label for="mensagem">Mensagem</label>
-            <textarea name="mensagem" id="mensagem" placeholder="Sua Mensagem"></textarea>
+            <textarea type="text" name="mensagem" id="mensagem" placeholder="Sua Mensagem"></textarea>
           </div>
           <div>
             <button type="submit">Enviar Mensagem</button>
+            <input type="hidden" name="accessKey" value="af856e07-eac3-484c-8375-14c3922d2e70">
+            <input type="hidden" name="redirectTo" value="https://www.versperfuratrizelocacoes.com.br/obg.html">
+
           </div>
         </fieldset>
+      </form>
         <h5 class="numeros-alling">Contatos</h5>
         <div class="numeros-alling">
           <p class="numeros-content n2"><a
@@ -133,6 +138,7 @@
 
   <footer class="main-bg footer">Site desenvolvido por <a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/rafael-xavier-rezende-a62974207/">Rafael
       Xavier Rezende</a></footer>
+      
 </body>
 
 </html>

@@ -486,6 +486,8 @@ display: block;
 .endereço{
   position: relative;
   top: 10rem;
+  align-items: center;
+  justify-content: center;
 }
 }
 
